@@ -19,8 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar />
+        <main className="h-screen flex justify-center align-middle">
+        <h1 className="text-white">Hello Welcome to Crapr App</h1>
         {children}
+        </main>
       </body>
     </html>
   );

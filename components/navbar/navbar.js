@@ -3,8 +3,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <div>
-      <h2>This is the homepage of the Crapr App.</h2>
-      <Link href="/">
+      <Link href="/home">
         <button className="NavBtn">Search</button>
       </Link>
       <Link href="/offer">

@@ -8,14 +8,19 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+body{
+  height: 100vh;
+}
 
 .homepage{
   background-color: skyblue;
 }
 
 input{
-  background: 
+  background: white;
 }
+
+
 
 .NavBtn{
   background-color: #3498db; /* Soft blue color */
